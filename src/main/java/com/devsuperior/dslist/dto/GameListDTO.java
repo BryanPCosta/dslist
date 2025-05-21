@@ -12,7 +12,6 @@ public class GameListDTO {
 	}
 
 	public GameListDTO(GameList entity) {
-		super();
 		id = entity.getId();
 		name = entity.getName();
 	}
